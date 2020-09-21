@@ -5,7 +5,7 @@ int Guess(int);
 int main()
 {
 	int ran,Round;
-	srand(NULL);
+	srand(time(NULL));
 
 	ran = rand() % 9 + 1;
 
